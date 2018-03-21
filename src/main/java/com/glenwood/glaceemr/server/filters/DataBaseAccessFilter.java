@@ -178,7 +178,7 @@ public class DataBaseAccessFilter implements Filter {
 		//		System.out.println("request URI--->"+httpReq.getRequestURI());
 		//		System.out.println("request url--->"+httpReq.getRequestURL());
 		
-		String[] dbParams = params[0].split("/glaceemr_backend/");
+		String[] dbParams = params[0].split("/glaceemr_backend_hxxx/");
 		if(dbParams.length>1){
 			String db[] = dbParams[1].split("/");
 			if(db[0]!= null){
